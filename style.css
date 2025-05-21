@@ -145,6 +145,7 @@ main {
     border-radius: 6px;
     margin-bottom: 1rem;
     transition: transform 0.3s ease;
+    display: block; /* Ensure image is displayed as block */
 }
 
 .menu-item:hover .coffee-image {
