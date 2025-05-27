@@ -73,6 +73,7 @@
     width: 50px;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
 
 .search-input{
@@ -109,4 +110,33 @@ span{
 
 .cart-logo{
     font-size: 1.85rem;
+}
+
+
+.second-navbar{
+    height: 39px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.all{
+    margin-left: 50px;
+    margin-right: 8px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-all{
+    padding-left: 4px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
 }
